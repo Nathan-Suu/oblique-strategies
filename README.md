@@ -11,8 +11,8 @@ $ python oblique.py
 |                                        |
 |                                        |
 |                                        |
-|      Do the words need changing?       |
-|                                        |
+|      Define an area as 'safe' and      |
+|          use it as an anchor           |
 |                                        |
 |                                        |
 |                                        |

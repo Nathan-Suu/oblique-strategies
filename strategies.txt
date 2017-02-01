@@ -38,7 +38,7 @@ Courage!
 Cut a vital conenction
 Cut a vital connection
 Decorate, decorate
-Define an area as `safe' and use it as an anchor
+Define an area as 'safe' and use it as an anchor
 Destroy  -nothing   -the most important thing
 Destroy nothing; Destroy the most important thing
 Discard an axiom
@@ -159,7 +159,6 @@ Try faking it (from Stewart Brand)
 Turn it upside down
 Twist the spine
 Use 'unqualified' people
-Use `unqualified' people
 Use an old idea
 Use an unacceptable color
 Use cliches
