@@ -7,14 +7,15 @@ Python script for drawing a card from Brian Eno and Peter Schmidt's [Oblique Str
 ```
 $ python oblique.py
 
-+------------------------------------------------------------+
-|                                                            |
-|                                                            |
-|                                                            |
-|           Honor thy error as a hidden intention            |
-|                                                            |
-|                                                            |
-|                                                            |
-+------------------------------------------------------------+
++----------------------------------------+
+|                                        |
+|                                        |
+|                                        |
+|      Do the words need changing?       |
+|                                        |
+|                                        |
+|                                        |
+|                                        |
++----------------------------------------+
 
 ```

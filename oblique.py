@@ -7,11 +7,15 @@ def blank_line(card_width, repeats=1):
     for repeat in range(repeats):
         print('|{}|'.format(' ' * card_width))
 
-def card_edge(card_width):
-    print('\n+{}+'.format('-' * card_width))
+def card_edge(card_width, pad_start=False, pad_end=False):
+    if pad_start:
+        print('')
+    print('+{}+'.format('-' * card_width))
+    if pad_end:
+        print('')
 
 def display(card, card_width=40):
-    card_edge(card_width)
+    card_edge(card_width, pad_start=True)
     blank_line(card_width, repeats=3)
 
     # print the message
@@ -21,7 +25,7 @@ def display(card, card_width=40):
         blank_line(card_width)
 
     blank_line(card_width, repeats=3)
-    card_edge(card_width)
+    card_edge(card_width, pad_end=True)
 
 def draw_card(text_width=30):
     with open('strategies.txt', 'r') as f:
