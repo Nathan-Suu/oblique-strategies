@@ -1,7 +1,6 @@
 import random
 
-# TODO - handle/wrap cards longer than the card width
-# TODO - specify card width from console
+# TODO - specify card width from console?
 
 def blank_line(card_width, repeats=1):
     for repeat in range(repeats):
@@ -32,7 +31,7 @@ def display(card, card_width=40):
 
     card_line(card_width, repeats=3)
     card_edge(card_width, pad_end=True)
-    blank_line(card_width, repeats=2)
+    blank_line(card_width, repeats=4)
 
 def draw_card(text_width=30):
     '''Draw a card from the deck.'''
