@@ -7,6 +7,7 @@ Python script for drawing a card from Brian Eno and Peter Schmidt's [Oblique Str
 ```
 $ python oblique.py
 
+
 +----------------------------------------+
 |                                        |
 |                                        |
@@ -17,5 +18,29 @@ $ python oblique.py
 |                                        |
 |                                        |
 +----------------------------------------+
+
+
+
+
+$ python
+>>> import oblique
+>>> card = oblique.draw()
+>>> oblique.display(card)
+
+
++----------------------------------------+
+|                                        |
+|                                        |
+|                                        |
+|        Make a blank valuable by        |
+|       putting it in an exquisite       |
+|                 frame                  |
+|                                        |
+|                                        |
+|                                        |
++----------------------------------------+
+
+
+
 
 ```
